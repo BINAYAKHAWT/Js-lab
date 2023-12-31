@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>My-Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- navigation / header -->
+    <header class="header">
+      <!-- logo -->
+      <div class="img-container">
+        <img src="assets/images/logo.png" alt="logo" />
+      </div>
+      <!-- nav links -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
     <!-- main -->
+    <main>
+      <div class="counter-container">
+        <div class="counter-card">
+          <h1>Simple counter</h1>
+          <div class="counter">
+            <button id="btn-minus">➖</button>
+            <h1 id="counter-number">0</h1>
+            <button id="btn-add">➕</button>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- footer -->
-    
-
-
+    <footer></footer>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

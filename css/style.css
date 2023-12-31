@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Inconsolata:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;700&display=swap');
+.header{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.img-container{
+width:50px;
+}
+
+.img-container img{
+    width: 100%;
+
+}
+
+nav {
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 5em;
+}
+
+.counter-container{
+    margin-top: 5em;
+    font-family: 'Almarai', sans-serif;
+    padding: 1em;
+    display: grid;
+    place-content: center;
+}
+
+.counter{
+    display: flex;
+  
+    gap: 40px;
+    
+
+}
+
+.counter-card{
+    border-radius: 10px;
+    padding: 5em;
+    background-color: #5d36fb;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+   
+
+}
